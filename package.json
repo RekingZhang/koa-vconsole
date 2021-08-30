@@ -1,0 +1,31 @@
+{
+	"name": "koa-vconsole",
+	"version": "0.0.1",
+	"description": "开发环境自动注入 vconsole 中间件",
+	"main": "index.js",
+	"directories": {
+		"lib": "lib"
+	},
+	"scripts": {
+		"test": "mocha 'test/**/*.test.js' --exit",
+		"coverage": "nyc mocha 'test/**/*.test.js' --exit"
+	},
+	"keywords": [
+		"koa",
+		"vconsole"
+	],
+	"author": "Reking Zhang",
+	"license": "MIT",
+	"dependencies": {
+		"jsdom": "^17.0.0"
+	},
+	"devDependencies": {
+		"expect.js": "^0.3.1",
+		"koa": "^2.13.1",
+		"koa-router": "^10.1.1",
+		"koa-views": "^7.0.1",
+		"mocha": "^9.1.0",
+		"nyc": "^15.1.0",
+		"supertest": "^6.1.6"
+	}
+}
