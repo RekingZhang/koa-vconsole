@@ -4,8 +4,10 @@
 	"description": "开发环境自动注入 vconsole 中间件",
 	"main": "index.js",
 	"types": "index.d.ts",
-	"directories": {
-		"lib": "lib"
+	"homepage": "https://github.com/RekingZhang/koa-vconsole",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RekingZhang/koa-vconsole.git"
 	},
 	"scripts": {
 		"test": "nyc mocha 'test/**/*.test.js' --exit",
