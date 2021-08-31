@@ -1,4 +1,4 @@
-# node-tms
+# koa-vconsole
 
 开发环境 HTML 请求自动 `vconsole` koa 中间件
 
@@ -16,7 +16,7 @@ const vConsole = require('koa-vconsole');
 app.use(vConsole());
 ```
 
-## API
+## Config
 
 ```js
 {
