@@ -1,6 +1,6 @@
 {
 	"name": "koa-vconsole",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "开发环境自动注入 vconsole 中间件",
 	"main": "index.js",
 	"types": "index.d.ts",
